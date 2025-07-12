@@ -37,7 +37,6 @@ align-items:center;
 
 /* About 링크 및 더보기 버튼 */
 .about, #load-more-btn{
-    font-family: 'MabinogiClassicR';
     color: var(--color-link); /* 링크 색상 적용 */
 }
 
@@ -254,4 +253,4 @@ align-items:center;
 }
 
 /* 점 (Dot) 스타일 */
-.dot{ line-height: 1;}
+.dot{ line-height: 1.8;}
