@@ -161,7 +161,6 @@ a {
     box-sizing: border-box;
     transition: none; /* 모든 전환 효과 비활성화 */
     background-color: var(--color-background-light); /* 밝은 배경색 */
-    font-family: 'DepartureMono-Regular';
 
 }
 
