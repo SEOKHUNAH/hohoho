@@ -9,7 +9,7 @@
 /* --- 웹 폰트 정의 (Web Font Definition) --- */
 
 @font-face {
-  font-family: 'Mabi';
+  font-family: 'Mabinogi_Classic_TTF';
   src: url('https://seokhunah.github.io/hohoho/fonts/Mabinogi_Classic_TTF.ttf') format('truetype');
 }
 
@@ -22,7 +22,7 @@
 */
 :root {
     /* 폰트 변수 */
-    --font-primary: 'MabinogiClassicR';
+    --font-primary: 'Mabinogi_Classic_TTF';
     --font-size-small: 1rem; /* 작은 텍스트 크기 (13px 기준 10.4px) */
     
     /* 색상 팔레트 */
