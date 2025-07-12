@@ -169,7 +169,7 @@
 
 /* 메시지 전송 버튼 */
 #send-message-button {
-    font-size: 0.8em; /* 폰트 크기 */
+    font-size: 1em; /* 폰트 크기 */
     width: auto;
     border: var(--stroke); /* 테두리 */
     padding: var(--spacing-xs) var(--spacing-sm); /* 8px 16px */
