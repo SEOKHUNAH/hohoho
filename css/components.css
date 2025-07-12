@@ -11,7 +11,7 @@
    HTML 구조에서 <div id="nav">에 해당합니다.
 */
 #nav {
-    padding: var(--spacing-md); /* 상하좌우 8px */
+    padding: var(--spacing-xs); /* 상하좌우 8px */
     padding-bottom: var(--spacing-md); /* 하단 24px */
     display: flex;
     flex-direction: row;
