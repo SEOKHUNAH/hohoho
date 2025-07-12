@@ -39,7 +39,6 @@ align-items:center;
 /* About 링크 및 더보기 버튼 */
 .about, #load-more-btn{
     color: var(--color-link); /* 링크 색상 적용 */
-font-family: 'MabinogiClassicR';
 }
 
 .about:hover, #search-button:hover{
@@ -88,7 +87,6 @@ font-family: 'MabinogiClassicR';
     opacity: 1; /* 보이게 함 */
     color: var(--color-link); /* 링크 색상 적용 */
     font-size: 1em;
-        font-family: 'MabinogiClassicR'; 
 
 }
 
@@ -115,7 +113,6 @@ font-family: 'MabinogiClassicR';
     line-height: 1em; /* 라인 높이 */
     background-color: transparent; /* 배경색 투명 */
     color: var(--color-link); /* 링크 색상 적용 */
-        font-family: 'MabinogiClassicR'; 
 
 }
 
