@@ -4,7 +4,12 @@
    주로 미디어 쿼리(@media)를 사용하여 모바일, 태블릿 등
    다양한 기기에서 웹사이트가 최적화되어 보이도록 조정합니다.
 */
-
+@font-face {
+    font-family: 'MabinogiClassicR'sans-serif !important;
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/MabinogiClassicR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 @media (max-width: 48em) { /* 화면 너비가 768px (48em) 이하일 때 적용 */
     /* --- 컨테이너 레이아웃 (Container Layout) --- */
     /*
