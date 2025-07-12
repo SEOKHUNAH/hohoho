@@ -11,7 +11,7 @@
    HTML 구조에서 <div id="nav">에 해당합니다.
 */
 #nav {
-    font-family: 'MabinogiClassicR'; 
+    font-family: 'Mabinogi_Classic_TTF'; 
     padding: var(--spacing-xs); /* 상하좌우 8px */
     padding-bottom: var(--spacing-md); /* 하단 24px */
     display: flex;
@@ -34,7 +34,7 @@
     flex: 1; /* 사용 가능한 공간을 채우도록 확장 */
     display:flex;
 align-items:center;
-        font-family: 'MabinogiClassicR';
+        font-family: 'Mabinogi_Classic_TTF';
 
 }
 
@@ -68,7 +68,7 @@ align-items:center;
     flex-direction: row;
     justify-content: flex-end; /* 우측 정렬 */
     color: var(--color-link); /* 링크 색상 적용 */
-        font-family: 'MabinogiClassicR'; 
+        font-family: 'Mabinogi_Classic_TTF'; 
 
 }
 
