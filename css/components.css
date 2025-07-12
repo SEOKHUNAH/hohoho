@@ -34,6 +34,8 @@
     flex: 1; /* 사용 가능한 공간을 채우도록 확장 */
     display:flex;
 align-items:center;
+        font-family: 'MabinogiClassicR';
+
 }
 
 /* About 링크 및 더보기 버튼 */
