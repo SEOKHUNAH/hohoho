@@ -332,7 +332,7 @@ window.addEventListener("load", function() {
     //note that everything must be passed as an array, so the brakets ['...'] are important.
 
     // Apply to the main document
-    animateCursor(['snoopy-frame1.png', 'snoopy-frame2.png']);
+    animateCursor(['cursor']);
 
     // Example: Apply a static cursor to a specific iframe (replace 'myIframeId' with your iframe's ID)
     // const mySpecificIframe = document.getElementById('myIframeId');
