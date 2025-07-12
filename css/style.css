@@ -15,6 +15,13 @@
     unicode-range: U+AC00-D7A3; /* 한글 유니코드 범위 */
 }
 
+@font-face {
+    font-family: 'DepartureMono-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2409-1@1.0/DepartureMono-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* --- Root 변수 (CSS Custom Properties) --- */
 /*
    웹사이트 전반에 걸쳐 재사용되는 값들을 변수로 정의합니다.
@@ -154,7 +161,7 @@ a {
     box-sizing: border-box;
     transition: none; /* 모든 전환 효과 비활성화 */
     background-color: var(--color-background-light); /* 밝은 배경색 */
-        font-family: 'MabinogiClassicR';
+    font-family: 'DepartureMono-Regular';
 
 }
 
