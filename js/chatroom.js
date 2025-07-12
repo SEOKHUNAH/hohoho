@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (currentUser.username) {
                 chatroomHeaderTitle.textContent = `${currentUser.username}님 환영합니다~!`;
             } else {
-                chatroomHeaderTitle.textContent = '방명록';
+                chatroomHeaderTitle.textContent = '방명록 제발 남겨줘...';
             }
             // 채팅방 내용을 맨 아래로 스크롤
             chatroomContent.scrollTop = chatroomContent.scrollHeight;
