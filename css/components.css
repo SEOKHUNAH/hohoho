@@ -95,6 +95,8 @@ align-items:center;
 /* 검색 컨테이너 확장 시 검색 버튼 */
 .search-container.expanded #search-button {
     border-bottom: var(--border-width-thin) var(--border-style-solid) var(--color-link); /* 하단 테두리 */
+        text-align: right; /* 텍스트 우측 정렬 */
+
 }
 
 /* 검색 버튼 */
