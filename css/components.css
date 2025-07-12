@@ -30,7 +30,7 @@
 
 /* About 섹션 컨테이너 */
 #about-container {
-    flex: 2; /* 사용 가능한 공간을 채우도록 확장 */
+    flex: 1; /* 사용 가능한 공간을 채우도록 확장 */
     display:flex;
 align-items:center;
 }
