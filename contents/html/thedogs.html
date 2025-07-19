@@ -3,23 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YouTube Embed</title>
+  <title>YouTube Embed with Custom Font and Background</title>
   <style>
-   body {
-  background-image: url('https://raw.githubusercontent.com/SEOKHUNAH/hohoho/main/contents/img/thedogs_bg2.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-family: 'Mabinogi_Classic_TTF';
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
+    /* 웹폰트 등록 */
+    @font-face {
+      font-family: 'Mabinogi_Classic_TTF';
+      src: url('https://raw.githubusercontent.com/SEOKHUNAH/hohoho/main/contents/fonts/Mabinogi_Classic_TTF.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
 
+    /* 전체 배경 및 레이아웃 */
+    body {
+      background-image: url('https://raw.githubusercontent.com/SEOKHUNAH/hohoho/main/contents/img/thedogs_bg2.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: 'Mabinogi_Classic_TTF', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    /* 비디오 카드 디자인 */
     .video-card {
-      background: transparent;
+      background: rgba(255, 255, 255, 0.85);
       border-radius: 10px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.1);
       overflow: hidden;
@@ -27,14 +37,17 @@
       width: 90%;
       transition: transform 0.3s ease;
     }
+
     .video-card:hover {
       transform: scale(1.02);
     }
+
     .video-wrapper {
       position: relative;
       padding-bottom: 56.25%;
       height: 0;
     }
+
     .video-wrapper iframe {
       position: absolute;
       top: 0;
@@ -43,13 +56,15 @@
       height: 100%;
       border: 0;
     }
+
     .caption {
       padding: 20px;
       text-align: center;
     }
+
     .caption h2 {
       margin: 0;
-      font-size: 1.5em;
+      font-size: 1.8em;
       color: #333;
     }
   </style>
