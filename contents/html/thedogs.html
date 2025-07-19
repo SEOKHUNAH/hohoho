@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YouTube Embed with Custom Font and Background</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>둥둥 떠다니는 강아지</title>
   <style>
-    /* 웹폰트 등록 */
     @font-face {
       font-family: 'Mabinogi_Classic_TTF';
       src: url('https://raw.githubusercontent.com/SEOKHUNAH/hohoho/main/contents/fonts/Mabinogi_Classic_TTF.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
     }
 
-    /* 전체 배경 및 레이아웃 */
     body {
       background-image: url('https://raw.githubusercontent.com/SEOKHUNAH/hohoho/main/contents/img/thedogs_bg2.jpg');
       background-size: cover;
@@ -25,9 +21,48 @@
       align-items: center;
       height: 100vh;
       margin: 0;
+      overflow: hidden;
+      position: relative;
     }
 
-    /* 비디오 카드 디자인 */
+    /* 떠다니는 강아지 이미지 */
+    .floating-img {
+      position: absolute;
+      width: 150px;
+      animation: floatAround 10s linear infinite alternate;
+      pointer-events: none;
+      z-index: 10;
+    }
+
+    /* 떠다니는 애니메이션 (화면을 빙빙 둥둥 떠다님) */
+    @keyframes floatAround {
+      0% {
+        top: 10%;
+        left: 5%;
+        transform: rotate(0deg);
+      }
+      25% {
+        top: 20%;
+        left: 70%;
+        transform: rotate(15deg);
+      }
+      50% {
+        top: 70%;
+        left: 60%;
+        transform: rotate(-10deg);
+      }
+      75% {
+        top: 60%;
+        left: 20%;
+        transform: rotate(5deg);
+      }
+      100% {
+        top: 30%;
+        left: 10%;
+        transform: rotate(0deg);
+      }
+    }
+
     .video-card {
       background: rgba(255, 255, 255, 0.85);
       border-radius: 10px;
@@ -36,6 +71,7 @@
       max-width: 700px;
       width: 90%;
       transition: transform 0.3s ease;
+      z-index: 5;
     }
 
     .video-card:hover {
@@ -70,6 +106,10 @@
   </style>
 </head>
 <body>
+  <!-- 떠다니는 이미지 -->
+  <img src="https://raw.githubusercontent.com/SEOKHUNAH/hohoho/main/contents/img/thedogs_img1.jpg" class="floating-img" />
+
+  <!-- 유튜브 카드 -->
   <div class="video-card">
     <div class="video-wrapper">
       <iframe src="https://www.youtube.com/embed/iW3NGzslPik?si=3rR0qLsWanHzytyC"
