@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>지그재그 강아지 + 유튜브 카드</title>
   <style>
-    @font-face {
-      font-family: 'Mabinogi_Classic_TTF';
-      src: url('https://seokhunah.github.io/hohoho/fonts/Mabinogi_Classic_TTF.ttf') format('truetype');
-    }
+@font-face {
+  font-family: 'Mabinogi_Classic_TTF';
+  src: url('https://cdn.jsdelivr.net/gh/SEOKHUNAH/hohoho/fonts/Mabinogi_Classic_TTF.ttf') format('truetype');
+}
+
 
     body {
       margin: 0;
