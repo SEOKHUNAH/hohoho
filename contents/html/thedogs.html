@@ -5,15 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>The dogs</title>
   <style>
-    body {
+    html, body {
       margin: 0;
       padding: 0;
+      height: 100%;
+    }
+
+    body {
       background-image: url('https://raw.githubusercontent.com/SEOKHUNAH/hohoho/main/contents/img/thedogs_bg.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       overflow: hidden;
-      height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -52,7 +55,7 @@
 
     .video-wrapper {
       position: relative;
-      padding-bottom: 56.25%;
+      padding-bottom: 56.25%; /* 16:9 비율 유지 */
       height: 0;
     }
 
@@ -74,4 +77,12 @@
   <!-- 유튜브 카드 -->
   <div class="video-card">
     <div class="video-wrapper">
-      <iframe src="https://w
+      <iframe src="https://www.youtube-nocookie.com/embed/iW3NGzslPik?si=3rR0qLsWanHzytyC"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+    </div>
+  </div>
+
+</body>
+</html>
